@@ -17,7 +17,7 @@ QGIS常用模型分享
 > 
 > **Scale** -- 夸张系数，数值越大越立体
 >
-> **BottomPoint_height** -- 基座高度（千米）
+> **BottomPoint_height（km）** -- 基座高度（千米）
 
 
 ## 2. Aspect_reclassify
