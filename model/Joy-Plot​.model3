@@ -63,7 +63,7 @@
       <Option name="params" type="Map">
         <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option name="expression" type="QString" value=" @bottompoint_height * 1000"/>
+            <Option name="expression" type="QString" value=" @bottompoint_heightkm * 1000"/>
             <Option name="source" type="int" value="3"/>
           </Option>
         </Option>
@@ -719,7 +719,7 @@
             <Option name="static_value" type="QgsProperty">
               <Option type="Map">
                 <Option name="active" type="bool" value="true"/>
-                <Option name="expression" type="QString" value="@Extract_M_value_OUTPUT_miny -&quot;top&quot; -  @bottompoint_height * 1000"/>
+                <Option name="expression" type="QString" value="@Extract_M_value_OUTPUT_miny -&quot;top&quot; -  @bottompoint_heightkm * 1000"/>
                 <Option name="type" type="int" value="3"/>
               </Option>
             </Option>
@@ -811,22 +811,22 @@
   <Option name="help"/>
   <Option name="internal_version" type="QString" value="Version2"/>
   <Option name="modelVariables"/>
-  <Option name="model_group" type="QString" value=""/>
+  <Option name="model_group" type="QString" value="OpenQGIS"/>
   <Option name="model_name" type="QString" value="Joy-Plot​"/>
   <Option name="outputGroup" type="QString" value=""/>
   <Option name="outputOrder"/>
   <Option name="parameterDefinitions" type="Map">
-    <Option name="bottompoint_height" type="Map">
+    <Option name="bottompoint_heightkm" type="Map">
       <Option name="data_type" type="int" value="0"/>
       <Option name="default" type="double" value="1"/>
       <Option name="defaultGui" type="invalid"/>
-      <Option name="description" type="QString" value="BottomPoint_height"/>
+      <Option name="description" type="QString" value="BottomPoint_height(km)"/>
       <Option name="flags" type="int" value="0"/>
       <Option name="help" type="QString" value=""/>
       <Option name="max" type="double" value="1.7976931348623157e+308"/>
       <Option name="metadata"/>
       <Option name="min" type="double" value="-1.7976931348623157e+308"/>
-      <Option name="name" type="QString" value="bottompoint_height"/>
+      <Option name="name" type="QString" value="bottompoint_heightkm"/>
       <Option name="parameter_type" type="QString" value="number"/>
     </Option>
     <Option name="crs" type="Map">
@@ -916,7 +916,7 @@
     <Option type="QString" value="bottompoint_height"/>
   </Option>
   <Option name="parameters" type="Map">
-    <Option name="bottompoint_height" type="Map">
+    <Option name="bottompoint_heightkm" type="Map">
       <Option name="color" type="QString" value=""/>
       <Option name="comment" type="Map">
         <Option name="color" type="QString" value=""/>
@@ -928,12 +928,12 @@
         <Option name="outputs_collapsed" type="bool" value="true"/>
         <Option name="parameters_collapsed" type="bool" value="true"/>
       </Option>
-      <Option name="component_description" type="QString" value="bottompoint_height"/>
+      <Option name="component_description" type="QString" value="bottompoint_heightkm"/>
       <Option name="component_height" type="double" value="30"/>
       <Option name="component_pos_x" type="double" value="234"/>
       <Option name="component_pos_y" type="double" value="720"/>
       <Option name="component_width" type="double" value="200"/>
-      <Option name="name" type="QString" value="bottompoint_height"/>
+      <Option name="name" type="QString" value="bottompoint_heightkm"/>
       <Option name="outputs_collapsed" type="bool" value="true"/>
       <Option name="parameters_collapsed" type="bool" value="true"/>
     </Option>
@@ -972,8 +972,8 @@
       </Option>
       <Option name="component_description" type="QString" value="dem"/>
       <Option name="component_height" type="double" value="30"/>
-      <Option name="component_pos_x" type="double" value="264"/>
-      <Option name="component_pos_y" type="double" value="463"/>
+      <Option name="component_pos_x" type="double" value="240"/>
+      <Option name="component_pos_y" type="double" value="375"/>
       <Option name="component_width" type="double" value="200"/>
       <Option name="name" type="QString" value="dem"/>
       <Option name="outputs_collapsed" type="bool" value="true"/>
