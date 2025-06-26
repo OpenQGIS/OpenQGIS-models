@@ -1,7 +1,12 @@
 # OpenQGIS-models
 QGIS常用模型分享
 ## 1. Joy-Plot​
-[叠嶂图生成模型 下载](https://github.com/OpenQGIS/OpenQGIS-models/blob/main/model/Joy-Plot%E2%80%8B.model3)
+
+叠嶂图生成 [model3 - 下载](https://github.com/OpenQGIS/OpenQGIS-models/blob/main/model/Joy-Plot%E2%80%8B.model3)
+
+![叠嶂图](https://github.com/OpenQGIS/OpenQGIS-models/blob/main/pictures/Joy-Plot.png "叠嶂图")
+
+
 > **DEM** -- 输入的栅格图层
 > 
 > **CRS** -- 生成的网格坐标系（必须为投影坐标）
@@ -16,7 +21,13 @@ QGIS常用模型分享
 
 
 ## 2. Aspect_reclassify
-[优化后朝向分析模型 下载](https://github.com/OpenQGIS/OpenQGIS-models/blob/main/model/Aspect_reclassify.model3)
+
+优化后朝向分析 [model3 - 下载](https://github.com/OpenQGIS/OpenQGIS-models/blob/main/model/Aspect_reclassify.model3)
+
+![QGIS风格朝向分析](https://github.com/OpenQGIS/OpenQGIS-models/blob/main/pictures/Aspect_QGIS-style.png.png "QGIS风格朝向分析")
+
+![ArcGIS风格朝向分析](https://github.com/OpenQGIS/OpenQGIS-models/blob/main/pictures/Aspect_ArcMAP-style.png "ArcGIS风格朝向分析")
+
 > **DEM** -- 输入的栅格图层
 > 
 > **qml** -- 对应的样式文件
