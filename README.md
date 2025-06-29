@@ -1,11 +1,10 @@
 # OpenQGIS-models
 QGIS常用模型分享
-## 1. Joy-Plot​
+## 1.1 Joy-Plot​
 
 叠嶂图生成 [model3 - 下载](https://github.com/OpenQGIS/OpenQGIS-models/blob/main/model/Joy-Plot%E2%80%8B.model3)
 
 ![叠嶂图](https://github.com/OpenQGIS/OpenQGIS-models/blob/main/pictures/Joy-Plot.png "叠嶂图")
-
 
 > **DEM** -- 输入的栅格图层
 > 
@@ -19,6 +18,14 @@ QGIS常用模型分享
 >
 > **BottomPoint_height（km）** -- 基座高度（千米）
 
+
+## 1.2 Joy-Plot​-Line
+叠嶂图（不规则线）生成 [model3 - 下载](https://github.com/OpenQGIS/OpenQGIS-models)
+
+> **Boundary** -- 不规则矢量范围
+
+
+---
 
 ## 2. Aspect_reclassify
 
