@@ -20,7 +20,7 @@ QGIS常用模型分享
 
 
 ## 1.2 Joy-Plot​-Line
-叠嶂图（不规则线）生成 [model3 - 下载](https://github.com/OpenQGIS/OpenQGIS-models)
+叠嶂图（不规则线）生成 [model3 - 下载](https://github.com/OpenQGIS/OpenQGIS-models) [Joy-Plot​-Line-PartB.model3 - 下载](https://github.com/OpenQGIS/OpenQGIS-models)
 
 > **Boundary** -- 不规则矢量范围
 
