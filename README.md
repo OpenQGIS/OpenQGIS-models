@@ -43,3 +43,24 @@ QGIS常用模型分享
  >> [栅格朝向分析_QGIS_1201(-1~8).qml](https://github.com/OpenQGIS/OpenQGIS-models/blob/main/qml/%E6%A0%85%E6%A0%BC%E6%9C%9D%E5%90%91%E5%88%86%E6%9E%90_QGIS_1201(-1~8).qml)
  >> 
  >> [栅格朝向分析_QGIS_1201(-1~8)_ArcGIS-style](https://github.com/OpenQGIS/OpenQGIS-models/blob/main/qml/%E6%A0%85%E6%A0%BC%E6%9C%9D%E5%90%91%E5%88%86%E6%9E%90_QGIS_1201(-1~8)_ArcGIS-style.qml)
+
+
+---
+
+## 3. 矢量可视域分析
+
+矢量可视域分析 [model3 - 下载](https://github.com/OpenQGIS/OpenQGIS-models/blob/main/model/%E8%A7%86%E7%BA%BF%E5%88%86%E6%9E%90%E7%9F%A2%E9%87%8F.model3)
+
+![QGIS矢量可视域分析](https://github.com/OpenQGIS/OpenQGIS-models/blob/main/pictures/%E7%9F%A2%E9%87%8F%E5%8F%AF%E8%A7%86%E5%9F%9F%E5%88%86%E6%9E%90.png "QGIS矢量可视域分析")
+
+> **视点** -- 视点文件
+> 
+> **DEM** -- 输入栅格高度图层
+>
+> **observ_hgt** -- 视点高度
+>
+> **radius** -- 视域半径
+> 
+> **target_hgt** -- 目标点的高度
+> 
+> **VerticesNumber** -- 视点数量，影响最后的线的密集程度
