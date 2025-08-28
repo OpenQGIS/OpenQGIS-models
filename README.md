@@ -49,9 +49,9 @@ QGIS常用模型分享
 
 ## 3. 矢量可视域分析
 
-矢量可视域分析 [model3 - 下载](https://github.com/OpenQGIS/OpenQGIS-models/blob/main/model/%E8%A7%86%E7%BA%BF%E5%88%86%E6%9E%90%E7%9F%A2%E9%87%8F.model3)
+矢量可视域分析 [model3 - 下载](https://github.com/OpenQGIS/OpenQGIS-models/blob/main/model/ViewVectorVisualization.model3)
 
-![QGIS矢量可视域分析](https://github.com/OpenQGIS/OpenQGIS-models/blob/main/pictures/%E7%9F%A2%E9%87%8F%E5%8F%AF%E8%A7%86%E5%9F%9F%E5%88%86%E6%9E%90.png "QGIS矢量可视域分析")
+![QGIS矢量可视域分析](https://github.com/OpenQGIS/OpenQGIS-models/blob/main/pictures/ViewVectorVisualization.png "QGIS矢量可视域分析")
 
 > **视点** -- 视点文件
 > 
