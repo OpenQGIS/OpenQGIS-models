@@ -160,8 +160,8 @@
       </Option>
       <Option name="component_description" type="QString" value="提取顶点"/>
       <Option name="component_height" type="double" value="30"/>
-      <Option name="component_pos_x" type="double" value="628"/>
-      <Option name="component_pos_y" type="double" value="628"/>
+      <Option name="component_pos_x" type="double" value="686.1278538812786"/>
+      <Option name="component_pos_y" type="double" value="649.2480974124809"/>
       <Option name="component_width" type="double" value="200"/>
       <Option name="dependencies"/>
       <Option name="id" type="QString" value="native:extractvertices_1"/>
@@ -288,7 +288,7 @@
         </Option>
         <Option name="HUBS" type="List">
           <Option type="Map">
-            <Option name="child_id" type="QString" value="native:extractvertices_1"/>
+            <Option name="child_id" type="QString" value="visibility:createviewpoints_1"/>
             <Option name="output_name" type="QString" value="OUTPUT"/>
             <Option name="source" type="int" value="1"/>
           </Option>
@@ -309,7 +309,7 @@
         </Option>
         <Option name="SPOKES" type="List">
           <Option type="Map">
-            <Option name="child_id" type="QString" value="native:buffer_1"/>
+            <Option name="child_id" type="QString" value="native:extractvertices_1"/>
             <Option name="output_name" type="QString" value="OUTPUT"/>
             <Option name="source" type="int" value="1"/>
           </Option>
@@ -696,7 +696,7 @@
             <Option name="source" type="int" value="2"/>
             <Option name="static_value" type="QgsCoordinateReferenceSystem">
               <spatialrefsys nativeFormat="Wkt">
-                <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+                <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
                 <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
                 <srsid>3452</srsid>
                 <srid>4326</srid>
@@ -997,8 +997,9 @@
     </Option>
   </Option>
   <Option name="designerParameterValues" type="Map">
-    <Option name="" type="QString" value="_______579112f9_0174_4724_acf3_ce3f1b4302a3"/>
-    <Option name="dem" type="QString" value="ASTGTM_N33E106V_f9c05bd7_900c_441d_82d7_326fe52f3bd7"/>
+    <Option name="" type="QString" value="_______e7ad427d_6794_4f73_b345_5122a25c5721"/>
+    <Option name="dem" type="QString" value="ASTGTM_N30E104K_b91be130_a09d_4697_b701_f06af80f801c"/>
+    <Option name="radius" type="double" value="15000"/>
     <Option name="verticesnumber" type="int" value="40"/>
     <Option name="viewlines" type="QgsProcessingOutputLayerDefinition">
       <Option type="Map">
@@ -1217,9 +1218,9 @@
       </Option>
       <Option name="component_description" type="QString" value="observ_hgt"/>
       <Option name="component_height" type="double" value="30"/>
-      <Option name="component_pos_x" type="double" value="352.921568627451"/>
+      <Option name="component_pos_x" type="double" value="348.02909966237087"/>
       <Option name="component_pos_y" type="double" value="202"/>
-      <Option name="component_width" type="double" value="107.84313725490196"/>
+      <Option name="component_width" type="double" value="117.62807518506214"/>
       <Option name="name" type="QString" value="observ_hgt"/>
       <Option name="outputs_collapsed" type="bool" value="true"/>
       <Option name="parameters_collapsed" type="bool" value="true"/>
